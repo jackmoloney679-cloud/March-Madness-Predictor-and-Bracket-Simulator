@@ -34,10 +34,10 @@ cd March-Madness-Predictor-and-Bracket-Simulator`
 
 Step 2: Create a Python virtual environment and install dependencies
 
-python3 -m venv .venv
+`python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r requirements.txt`
 
 ------------------------------------------------------------
 
@@ -47,11 +47,11 @@ This project uses Kaggle’s March Machine Learning Mania dataset.
 
 Download the dataset from Kaggle and place the required CSV files into:
 
-data/raw/
+`data/raw/`
 
 The exact list of required CSV files is documented in:
 
-data/raw/README.md
+`data/raw/README.md`
 
 File names must match exactly (case-sensitive).
 
@@ -61,7 +61,7 @@ Step 4: Run the project
 
 From the repository root, run:
 
-python3 main.py
+`python3 main.py`
 
 If the script completes without errors, the project has run successfully.
 Output figures and metrics will be generated in the repository.
