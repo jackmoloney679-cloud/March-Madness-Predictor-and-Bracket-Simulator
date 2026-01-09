@@ -14,69 +14,67 @@ This repository follows the required ML project layout:
 
 ## Running the Project
 
-## Running the Project (TA / Grader Instructions)
 
 The primary grading criterion for this project is that:
 
-**python3 main.py runs successfully on a fresh machine.**
+python3 main.py runs successfully on a fresh machine.
 
-All commands below must be run from the **repository root**
-(the folder containing `main.py`).
+All commands below must be run from the repository root
+(the folder containing main.py).
 
----
+------------------------------------------------------------
 
-### Step 1: Clone the repository
+Step 1: Clone the repository
 
 Open a terminal and run:
 
-```bash
 git clone https://github.com/jackmoloney679-cloud/March-Madness-Predictor-and-Bracket-Simulator.git
 cd March-Madness-Predictor-and-Bracket-Simulator
-```
 
----
+------------------------------------------------------------
 
-### Step 2: Create a Python virtual environment and install dependencies
+Step 2: Create a Python virtual environment and install dependencies
 
-```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
-```
 
----
+------------------------------------------------------------
 
-### Step 3: Download and place the dataset
+Step 3: Download and place the dataset
 
-This project uses Kaggle’s **March Machine Learning Mania** dataset.
+This project uses Kaggle’s March Machine Learning Mania dataset.
 
-Download the dataset from Kaggle and place the required CSV files into:
+1) Create the raw data directory (if it does not already exist):
 
-```
+mkdir -p data/raw
+
+2) Download the Kaggle dataset, unzip it, and copy the required CSV files into:
+
 data/raw/
-```
 
-The exact list of required CSV files is documented in:
+3) Verify that the files are present:
 
-```
+ls data/raw
+
+The exact list of required CSV filenames is documented in:
+
 data/raw/README.md
-```
 
 File names must match exactly (case-sensitive).
 
----
+------------------------------------------------------------
 
-### Step 4: Run the project
+Step 4: Run the project
 
 From the repository root, run:
 
-```bash
 python3 main.py
-```
 
-If the script completes without errors, the project has run successfully.  
+If the script completes without errors, the project has run successfully.
 Output figures and metrics will be generated in the repository.
+
 
 
 
