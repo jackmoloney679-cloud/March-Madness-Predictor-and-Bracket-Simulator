@@ -14,12 +14,37 @@ This repository follows the required ML project layout:
 
 ## Running the Project
 
-1. Create an environment (choose one):
-   - Conda: `conda env create -f environment.yml && conda activate <env-name>`
-   - Pip: `pip install -r requirements.txt`
+Step 1: Clone the repository
 
-2. Download Kaggle data and place required CSVs in `data/raw/`
-   (see `data/raw/README.md` for the exact list)
+Open a terminal and run:
 
-3. Run:
-   `python3 main.py`
+git clone https://github.com/jackmoloney679-cloud/March-Madness-Predictor-and-Bracket-Simulator.git
+cd March-Madness-Predictor-and-Bracket-Simulator
+
+Step 2: Create a Python virtual environment and install dependencies
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+
+Step 3: Download and place the dataset
+
+This project uses Kaggle’s March Machine Learning Mania dataset.
+
+Download the dataset from Kaggle and place the required CSV files into:
+
+data/raw/
+
+
+The exact list of required CSV files is documented in:
+
+data/raw/README.md
+
+
+File names must match exactly (case-sensitive).
+
+Step 4: Run the project
+
+From the repository root, run:
+
+python3 main.py
