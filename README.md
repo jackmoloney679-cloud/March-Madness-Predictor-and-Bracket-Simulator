@@ -14,6 +14,15 @@ This repository follows the required ML project layout:
 
 ## Running the Project
 
+The primary grading criterion for this project is that:
+
+python3 main.py runs successfully on a fresh machine.
+
+All commands below must be run from the repository root
+(the folder containing main.py).
+
+------------------------------------------------------------
+
 Step 1: Clone the repository
 
 Open a terminal and run:
@@ -21,6 +30,7 @@ Open a terminal and run:
 git clone https://github.com/jackmoloney679-cloud/March-Madness-Predictor-and-Bracket-Simulator.git
 cd March-Madness-Predictor-and-Bracket-Simulator
 
+------------------------------------------------------------
 
 Step 2: Create a Python virtual environment and install dependencies
 
@@ -29,6 +39,7 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
+------------------------------------------------------------
 
 Step 3: Download and place the dataset
 
@@ -38,18 +49,25 @@ Download the dataset from Kaggle and place the required CSV files into:
 
 data/raw/
 
-
-
 The exact list of required CSV files is documented in:
 
 data/raw/README.md
 
-
 File names must match exactly (case-sensitive).
+
+------------------------------------------------------------
 
 Step 4: Run the project
 
 From the repository root, run:
 
 python3 main.py
+
+If the script completes without errors, the project has run successfully.
+Output figures and metrics will be generated in the repository.
+
+
+
+
+
 
