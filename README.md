@@ -27,8 +27,8 @@ Step 1: Clone the repository
 
 Open a terminal and run:
 
-git clone https://github.com/jackmoloney679-cloud/March-Madness-Predictor-and-Bracket-Simulator.git
-cd March-Madness-Predictor-and-Bracket-Simulator
+`git clone https://github.com/jackmoloney679-cloud/March-Madness-Predictor-and-Bracket-Simulator.git
+cd March-Madness-Predictor-and-Bracket-Simulator`
 
 ------------------------------------------------------------
 
