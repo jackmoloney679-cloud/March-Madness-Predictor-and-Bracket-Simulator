@@ -1,13 +1,18 @@
 # Raw data (not committed)
 
-This project uses the Kaggle "March Machine Learning Mania" dataset.
+This project uses the Kaggle **March Machine Learning Mania** dataset.
 
 Download the data from Kaggle and place the following CSV files in this folder:
 
 - MNCAATourneySeeds.csv
-- MTeamConferences.csv
-- MRegularSeasonDetailedResults.csv
 - MNCAATourneyCompactResults.csv
+- MNCAATourneySlots.csv
+- MRegularSeasonDetailedResults.csv
+- MTeamConferences.csv
+- MTeams.csv
 
-Then run from the repo root:
+These files are intentionally not committed to the repository.
+
+After placing the files here, run the full pipeline from the repository root:
+
   python3 main.py
