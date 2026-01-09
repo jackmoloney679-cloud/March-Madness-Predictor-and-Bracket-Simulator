@@ -1,6 +1,6 @@
 # Notebooks
 
-This folder contains Jupyter notebooks used for data exploration,
-feature engineering, and experimentation.
+This folder contains Jupyter notebooks used for exploration, prototyping,
+and intermediate analysis.
 
-The final pipeline is implemented in `main.py`.
+The final, reproducible pipeline is implemented in `main.py`.
