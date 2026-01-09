@@ -644,8 +644,8 @@ plt.show()
 # In[41]:
 
 
-Slots = pd.read_csv("MNCAATourneySlots.csv")      
-Teams = pd.read_csv("MTeams.csv")                
+Slots = pd.read_csv("data/raw/MNCAATourneySlots.csv")      
+Teams = pd.read_csv("data/raw/MTeams.csv")                
 
 print(Slots.head())
 print(Teams.head())
