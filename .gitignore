@@ -1,1 +1,8 @@
 main_backup.py
+
+# Local raw data (do not commit)
+data/raw/*.csv
+
+# Local generated outputs (do not commit)
+*.png
+model_*.csv
