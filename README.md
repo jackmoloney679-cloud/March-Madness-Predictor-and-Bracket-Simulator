@@ -17,7 +17,7 @@ The primary grading criterion for this project is that:
 
 After cloning the git repository (for example on VS Code), all commands below must be run from the **New Terminal**
 
-**Note** : the spaces between the different code segments indicates that each segment needs to be ran before running the next one.
+**Note** : the spaces between the different code segments indicates that each segment needs to be ran before running the next one. Instructions on how to put the CSV files in the correct place are shown when running the second block.
 
 ```bash
 python3 -m venv .venv
