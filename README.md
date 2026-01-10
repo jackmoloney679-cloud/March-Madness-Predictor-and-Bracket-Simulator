@@ -31,8 +31,6 @@ unzip ~/Downloads/march-machine-learning-mania-2025.zip -d /tmp/kaggle_mania
 
 ls /tmp/kaggle_mania
 
-# assume it shows: march-machine-learning-mania-2025
-ls /tmp/kaggle_mania/march-machine-learning-mania-2025
 
 cp /tmp/kaggle_mania/MNCAATourneySeeds.csv data/raw/
 cp /tmp/kaggle_mania/MNCAATourneyCompactResults.csv data/raw/
