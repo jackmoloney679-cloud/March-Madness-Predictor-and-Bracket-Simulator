@@ -3,7 +3,7 @@
 This project uses the Kaggle **March Machine Learning Mania 2025** dataset.
 
 Download the data from Kaggle and place the folder (appears in Downloads when unzipping) in the current VS Code workspace.
-**Warning** : Before sliding the CSV files listed below, make sure the **data/raw** segment is open (Click on data/raw found in the workspace) and the **README.md** is visible. We want the CSV to be on the same level as the README.md file.
+**Warning** : Before sliding the CSV files listed below, make sure the **data/raw** segment is open (Click on data/raw found in the workspace) and the **README.md** is visible. **We want the CSV to be on the same level as the README.md file.**
 
 From the downloaded folder (march-machine-learning-mania-2025), select the following CSV files in the current workspace and slide them under **data/raw**:
 
