@@ -27,25 +27,6 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 mkdir -p data/raw
-cat data/raw/README.md
-ls data/raw
-
-python3 main.py
-
----
-
-### Optional: Terminal-only data setup (alternative to drag-and-drop)
-
-If you prefer to place the Kaggle data using the terminal instead of copying files manually, you can use the commands below.
-
-This project uses the Kaggle **March Machine Learning Mania** dataset.  
-Download the dataset zip file from Kaggle and place it in your `Downloads` folder.
-
-From the repository root, run:
-
-```bash
-cd March-Madness-Predictor-and-Bracket-Simulator
-mkdir -p data/raw
 
 unzip ~/Downloads/march-machine-learning-mania-2025.zip -d /tmp/kaggle_mania
 
@@ -55,6 +36,14 @@ cp /tmp/kaggle_mania/MNCAATourneySlots.csv data/raw/
 cp /tmp/kaggle_mania/MRegularSeasonDetailedResults.csv data/raw/
 cp /tmp/kaggle_mania/MTeamConferences.csv data/raw/
 cp /tmp/kaggle_mania/MTeams.csv data/raw/
+
+
+cat data/raw/README.md
+ls data/raw
+
+python3 main.py
+
+
 
 
 
