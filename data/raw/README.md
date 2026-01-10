@@ -2,7 +2,8 @@
 
 This project uses the Kaggle **March Machine Learning Mania** dataset.
 
-Download the data from Kaggle and place the folder (appears in Downloads when unzipping) and the following CSV files in the current workspace under **data/raw**:
+Download the data from Kaggle and place the folder (appears in Downloads when unzipping).
+From the downloaded folder (march-machine-learning-mania-2025), select the following CSV files in the current workspace and slide them under **data/raw**:
 
 - MNCAATourneySeeds.csv
 - MNCAATourneyCompactResults.csv
