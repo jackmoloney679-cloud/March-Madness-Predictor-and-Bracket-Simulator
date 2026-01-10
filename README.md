@@ -15,7 +15,7 @@ The primary grading criterion for this project is that:
 
 **`python3 main.py` runs successfully on a fresh machine.**
 
-After cloning the git repository, all commands below must be run from the **New Terminal**
+After cloning the git repository (for example on VS Code), all commands below must be run from the **New Terminal**
 
 ```bash
 python3 -m venv .venv
