@@ -2,7 +2,7 @@
 
 This project uses the Kaggle **March Machine Learning Mania** dataset.
 
-Download the data from Kaggle and place the folder and the following CSV files in the current workspace:
+Download the data from Kaggle and place the folder and the following CSV files in the current workspace under **data/raw**:
 
 - MNCAATourneySeeds.csv
 - MNCAATourneyCompactResults.csv
@@ -13,6 +13,6 @@ Download the data from Kaggle and place the folder and the following CSV files i
 
 These files are intentionally not committed to the repository.
 
-After placing the files here, run the full pipeline from the repository root:
+After placing the files here, run the full pipeline from the Terminal:
 
   python3 main.py
