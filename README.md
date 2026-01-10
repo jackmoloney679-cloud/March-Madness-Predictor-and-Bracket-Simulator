@@ -29,18 +29,17 @@ ls data/raw
 
 unzip ~/Downloads/march-machine-learning-mania-2025.zip -d /tmp/kaggle_mania
 
-# IMPORTANT: inspect extracted folder name
 ls /tmp/kaggle_mania
 
 # assume it shows: march-machine-learning-mania-2025
 ls /tmp/kaggle_mania/march-machine-learning-mania-2025
 
-cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MNCAATourneySeeds.csv data/raw/
-cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MNCAATourneyCompactResults.csv data/raw/
-cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MNCAATourneySlots.csv data/raw/
-cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MRegularSeasonDetailedResults.csv data/raw/
-cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MTeamConferences.csv data/raw/
-cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MTeams.csv data/raw/
+cp /tmp/kaggle_mania/MNCAATourneySeeds.csv data/raw/
+cp /tmp/kaggle_mania/MNCAATourneyCompactResults.csv data/raw/
+cp /tmp/kaggle_mania/MNCAATourneySlots.csv data/raw/
+cp /tmp/kaggle_mania/MRegularSeasonDetailedResults.csv data/raw/
+cp /tmp/kaggle_mania/MTeamConferences.csv data/raw/
+cp /tmp/kaggle_mania/MTeams.csv data/raw/
 
 ls data/raw
 
