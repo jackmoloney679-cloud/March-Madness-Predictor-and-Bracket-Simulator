@@ -14,32 +14,7 @@ This repository follows the required ML project layout:
 
 ## Running the Project
 
-The primary grading criterion for this project is that:
 
-**`python3 main.py` runs successfully on a fresh machine.**
-
-All commands below must be run from the **repository root**
-(the folder containing `main.py`).
-
-### End-to-end commands (copy & paste)
-
-```bash
-git clone https://github.com/jackmoloney679-cloud/March-Madness-Predictor-and-Bracket-Simulator.git
-cd March-Madness-Predictor-and-Bracket-Simulator
-
-python3 -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-
-mkdir -p data/raw
-ls data/raw
-cat data/raw/README.md
-
-python3 main.py
-```
-
-If `python3 main.py` completes without errors, the project has run successfully.
 
 
 
