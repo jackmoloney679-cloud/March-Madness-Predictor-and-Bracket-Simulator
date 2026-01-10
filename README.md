@@ -18,9 +18,6 @@ The primary grading criterion for this project is that:
 All commands below must be run from the **repository root** (the folder containing `main.py`).
 
 ```bash
-git clone https://github.com/jackmoloney679-cloud/March-Madness-Predictor-and-Bracket-Simulator.git
-cd March-Madness-Predictor-and-Bracket-Simulator
-
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
@@ -32,14 +29,23 @@ ls data/raw
 
 unzip ~/Downloads/march-machine-learning-mania-2025.zip -d /tmp/kaggle_mania
 
-cp /tmp/kaggle_mania/MNCAATourneySeeds.csv data/raw/
-cp /tmp/kaggle_mania/MNCAATourneyCompactResults.csv data/raw/
-cp /tmp/kaggle_mania/MNCAATourneySlots.csv data/raw/
-cp /tmp/kaggle_mania/MRegularSeasonDetailedResults.csv data/raw/
-cp /tmp/kaggle_mania/MTeamConferences.csv data/raw/
-cp /tmp/kaggle_mania/MTeams.csv data/raw/
+# IMPORTANT: inspect extracted folder name
+ls /tmp/kaggle_mania
+
+# assume it shows: march-machine-learning-mania-2025
+ls /tmp/kaggle_mania/march-machine-learning-mania-2025
+
+cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MNCAATourneySeeds.csv data/raw/
+cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MNCAATourneyCompactResults.csv data/raw/
+cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MNCAATourneySlots.csv data/raw/
+cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MRegularSeasonDetailedResults.csv data/raw/
+cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MTeamConferences.csv data/raw/
+cp /tmp/kaggle_mania/march-machine-learning-mania-2025/MTeams.csv data/raw/
+
+ls data/raw
 
 python3 main.py
+
 
 
 
