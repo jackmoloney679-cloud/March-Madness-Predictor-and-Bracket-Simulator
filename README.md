@@ -27,6 +27,8 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 mkdir -p data/raw
+cat data/raw/README.md
+ls data/raw
 
 unzip ~/Downloads/march-machine-learning-mania-2025.zip -d /tmp/kaggle_mania
 
@@ -36,10 +38,6 @@ cp /tmp/kaggle_mania/MNCAATourneySlots.csv data/raw/
 cp /tmp/kaggle_mania/MRegularSeasonDetailedResults.csv data/raw/
 cp /tmp/kaggle_mania/MTeamConferences.csv data/raw/
 cp /tmp/kaggle_mania/MTeams.csv data/raw/
-
-
-cat data/raw/README.md
-ls data/raw
 
 python3 main.py
 
